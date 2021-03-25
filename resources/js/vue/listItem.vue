@@ -30,6 +30,17 @@
                    console.log(error);
                 });
             },
+            removeItem() {
+                axios.delete('api/item/' + this.item.id, {
+                    item: this.item
+                }).then(response => {
+                    if (response.status === 200) {
+                        this.$emit('itemChanged');
+                    }
+                }).catch(error => {
+                    console.log(error);
+                });
+            }
         },
     }
 </script>
