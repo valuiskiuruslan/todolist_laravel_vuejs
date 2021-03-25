@@ -3,3 +3,19 @@
 ## About Todo List project
 <p>This is the Todo List App with Laravel and Vue.js</p>
 <p>The project was made by the video tutorial <a href="https://www.youtube.com/watch?v=UHSipe7pSac">Todo List App with Laravel and Vue.js</a></p>
+
+## Commands
+<ul>
+    <li>
+        Start laravel:<br>
+        <code>php artisan serve</code>
+    </li>
+     <li>
+         Start vue.js for development:<br>
+         <code>npm run hot</code>
+     </li>
+     <li>
+         Build vue.js for production:<br>
+         <code>npm run production</code>
+     </li>
+</ul>
