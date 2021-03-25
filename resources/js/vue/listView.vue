@@ -4,6 +4,7 @@
             <list-item
                 :item="item"
                 class="item"
+                @itemChanged="$emit('reloadList')"
             />
         </div>
     </div>
