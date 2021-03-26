@@ -7,6 +7,14 @@
 ## Commands
 <ul>
     <li>
+        Install laravel dependencies:<br>
+        <code>composer install</code>
+    </li>
+    <li>
+        Install js dependencies:<br>
+        <code>npm run install</code>
+    </li>
+    <li>
         Start laravel:<br>
         <code>php artisan serve</code>
     </li>
